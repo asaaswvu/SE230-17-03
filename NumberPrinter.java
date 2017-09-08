@@ -19,13 +19,18 @@ class NumberPrinter{
 
     private void doStuff(){
 
+	Collections.sort(ll);
+	System.out.println("The list is:" + "\n" +ll);
+
     }
 
 
 
 
     public static void main(String [] args){
-        new NumberPrinter();	
+        new NumberPrinter();
+	
+	
     }
 
 }
