@@ -19,6 +19,10 @@ class NumberPrinter{
 
     private void doStuff(){
 	Collections.sort(ll);
+	ll.add(1);
+        ll.add(2);
+        ll.add(3);
+        ll.add(4);
 	System.out.print(ll);
     }
 
