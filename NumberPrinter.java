@@ -18,11 +18,9 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-
+	Collections.sort(ll);
+	System.out.println("The sorted Linked List is: " + ll);
     }
-
-
-
 
     public static void main(String [] args){
         new NumberPrinter();	
