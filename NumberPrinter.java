@@ -18,11 +18,17 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-	ll.add(1);
-	ll.add(2);
-	ll.add(3);
+
+	
+	
+
+        ll.add(1);
+        ll.add(2);
+        ll.add(3);
+        ll.add(4);
 	Collections.sort(ll);
 	System.out.println(ll);
+
 
     }
 
