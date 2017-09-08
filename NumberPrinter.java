@@ -18,7 +18,10 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-
+	Collections.sort(ll);
+	for (int i=0; i<ll.size(); i++){
+		System.out.println(ll.get(i));
+	} 
     }
 
 
