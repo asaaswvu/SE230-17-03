@@ -24,6 +24,11 @@ class NumberPrinter{
 
 	System.out.println(Arrays.toString(ll.toArray()));
 
+        ll.add(1);
+        ll.add(2);
+        ll.add(3);
+        ll.add(4);
+
     }
 
 
