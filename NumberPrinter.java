@@ -13,7 +13,11 @@ class NumberPrinter{
         for(int i=0; i<10; i++){
             ll.add(rand.nextInt(100) + 1);
         }
-
+	
+        ll.add(1);
+        ll.add(2);
+        ll.add(3);
+        ll.add(4);
         doStuff();
     }
 
