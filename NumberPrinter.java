@@ -18,7 +18,13 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-
+	Collections.sort(ll);
+	System.out.println("The list in ascending order is: ");
+	for (int i = 0; i < 10; i++)
+	{
+	System.out.print(ll.get(i) + " ");
+	}
+	System.out.println();
     }
 
 
