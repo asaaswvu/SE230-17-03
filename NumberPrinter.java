@@ -2,6 +2,7 @@ import java.util.LinkedList;
 import java.util.Random;
 import java.util.Collections;
 
+
 class NumberPrinter{
 
     LinkedList<Integer> ll;
@@ -18,6 +19,9 @@ class NumberPrinter{
     }
 
     private void doStuff(){
+	Collections.sort(ll);
+	System.out.println("The list inclueds: \n"+ ll);
+	
 
     }
 
