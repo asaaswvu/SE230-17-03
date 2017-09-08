@@ -19,11 +19,18 @@ class NumberPrinter{
 
     private void doStuff(){
 
+
         Collections.sort(ll);
     	 
         // Let us print the sorted list
         System.out.println("List after the use of" +
                            " Collection.sort() :\n" + ll);
+
+
+        ll.add(1);
+        ll.add(2);
+        ll.add(3);
+        ll.add(4);
 
     }
 
