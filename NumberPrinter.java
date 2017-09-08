@@ -19,17 +19,10 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-<<<<<<< HEAD
+
 	Collections.sort(ll);
 	System.out.println("The list inclueds: \n"+ ll);
 	
-
-=======
-        ll.add(1);
-        ll.add(2);
-        ll.add(3);
-        ll.add(4);
->>>>>>> master
     }
 
 
