@@ -18,7 +18,8 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-
+	Collections.sort(ll);
+	System.out.print(ll);
     }
 
 
