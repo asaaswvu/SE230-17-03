@@ -18,7 +18,9 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-
+	Collections.sort(ll);
+	System.out.println("List after the use of" +
+                           " Collection.sort():\n" + ll);
     }
 
 
