@@ -1,6 +1,7 @@
 import java.util.LinkedList;
 import java.util.Random;
 import java.util.Collections;
+import java.util.*; 
 
 class NumberPrinter{
 
@@ -18,6 +19,10 @@ class NumberPrinter{
     }
 
     private void doStuff(){
+
+	Collections.sort(ll);
+
+	System.out.println(Arrays.toString(ll.toArray()));
 
     }
 
