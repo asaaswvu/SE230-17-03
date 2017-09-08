@@ -18,14 +18,14 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-
+	Collections.sort(ll);
+     	System.out.println(ll);
     }
-
-
 
 
     public static void main(String [] args){
         new NumberPrinter();	
+	
     }
 
 }
