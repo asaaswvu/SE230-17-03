@@ -18,10 +18,13 @@ class NumberPrinter{
     }
 
     private void doStuff(){
+	Collections.sort(ll);
+	for(int i = 0; i<10; i++){
+	System.out.print(ll.get(i) + " ");
+	}
+	System.out.println();
 
-    }
-
-
+}
 
 
     public static void main(String [] args){
