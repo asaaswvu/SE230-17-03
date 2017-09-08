@@ -18,6 +18,7 @@ class NumberPrinter{
     }
 
     private void doStuff(){
+
 	String output;
 	Collections.sort(ll);
 	output = ll.toString();
