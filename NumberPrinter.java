@@ -17,15 +17,17 @@ class NumberPrinter{
         doStuff();
     }
 
-    private void doStuff(){
-
-    }
-
-
+    private void doStuff(){	
+	Collections.sort(ll);
+	for (int i=0;i<10;i++){
+	System.out.println(ll.get(i).toString());
+	}
+}
 
 
     public static void main(String [] args){
         new NumberPrinter();	
+	
     }
 
 }
