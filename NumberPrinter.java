@@ -18,15 +18,15 @@ class NumberPrinter{
     }
 
     private void doStuff(){
-<<<<<<< HEAD
+
 	Collections.sort(ll);
 	System.out.println("The sorted Linked List is: " + ll);
-=======
+
         ll.add(1);
         ll.add(2);
         ll.add(3);
         ll.add(4);
->>>>>>> master
+
     }
 
     public static void main(String [] args){
