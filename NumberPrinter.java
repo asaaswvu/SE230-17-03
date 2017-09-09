@@ -18,6 +18,7 @@ class NumberPrinter{
     }
 
     private void doStuff(){
+<<<<<<< HEAD
         ll.add(1);
         ll.add(2);
         ll.add(3);
@@ -25,6 +26,13 @@ class NumberPrinter{
         Collections.sort(ll);
 
         System.out.println("List after sort: " + ll);
+=======
+
+	String output;
+	Collections.sort(ll);
+	output = ll.toString();
+	System.out.println(output);
+>>>>>>> 885a0f1c2905a568489b09c1af73ac99b630072a
     }
 
 
