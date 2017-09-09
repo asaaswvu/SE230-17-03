@@ -9,7 +9,7 @@ class NumberPrinter{
     NumberPrinter(){
         Random rand = new Random();
         ll = new LinkedList<Integer>();
-        
+
         for(int i=0; i<10; i++){
             ll.add(rand.nextInt(100) + 1);
         }
@@ -22,13 +22,16 @@ class NumberPrinter{
         ll.add(2);
         ll.add(3);
         ll.add(4);
+        Collections.sort(ll);
+
+        System.out.println("List after sort: " + ll);
     }
 
 
 
 
     public static void main(String [] args){
-        new NumberPrinter();	
+        new NumberPrinter();
     }
 
 }
